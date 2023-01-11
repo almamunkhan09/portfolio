@@ -2,43 +2,50 @@ export const attributes = {
   hero: {
     firstButton: {
       icon: 'briefcase-outline',
-      link: '/#portofolio',
+      link: 'https://www.google.com',
       text: 'My work',
     },
-    heading: "I'm Paco Cu, and I create",
+    heading:
+      "I'm Al Mamun Khan. I develop and deliver application using State of Art technologies.",
     image: '/img/hero.jpeg',
-    secondButton: { icon: 'whatsapp', link: '/#contact', text: 'Contact' },
+    secondButton: {
+      icon: 'linkedin',
+      link: 'https://www.linkedin.com/in/al-mamun-khan/',
+      text: 'Contact',
+    },
     social: {
       facebook: { link: 'https://facebook.com', show: true },
       instagram: { link: 'https://instagram.com', show: true },
       linkedin: { link: 'https://linkedin.com', show: true },
     },
     typed: [
-      { text: 'fast websites.' },
-      { text: 'beautiful logos.' },
-      { text: 'great experiences.' },
+      { text: 'PERN Web App' },
+      { text: 'MERN web App' },
+      { text: 'Cloud Native Application' },
+      { text: 'Kubernetes and AWS ' },
+      { text: 'Devops' },
     ],
   },
   about: {
     heading: 'Who am I?',
     image: '/img/about.jpeg',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dapibus mi, sit amet consequat leo. Integer non dolor non elit sodales consequat. Integer tempor sollicitudin massa, vel sollicitudin ante dictum eu.\n',
+    text: 'I am a fullstack javascript developer with a devops and cloud mindset. I like to develop web application and make it live to a cloud server. I can serve in different techologies like Nodejs,Express,MongoDB,Typescript. Moreover I use  CICD to deliver values at a fast rate. Also I am cloud freak, like to deploy in AWS public cloud. If you are looking for a developer with this technolgies and industrial practice you may consider me. ',
   },
   features: [
     {
+      icon: 'xml',
+      text: 'Web Application using Node and React\n',
+      title: 'Web Development',
+    },
+    {
       icon: 'monitor-screenshot',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dapibus mi.\n',
-      title: 'UI/UX',
+      text: 'API development, AWS API gateway,Serverless Application ',
+      title: 'API',
     },
     {
       icon: 'draw',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dapibus mi.\n',
-      title: 'Logo Design',
-    },
-    {
-      icon: 'xml',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dapibus mi.\n',
-      title: 'Web Development',
+      text: 'Website design and wireframing ',
+      title: 'Web Design',
     },
   ],
   portfolio: {
@@ -82,5 +89,5 @@ export const attributes = {
     ],
     title: 'My work',
   },
-  footer: { text: '© John Doe' },
+  footer: { text: '© Al Mamun Khan' },
 };
